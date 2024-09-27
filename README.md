@@ -1,1 +1,3 @@
 # panoramic
+
+python main.py
