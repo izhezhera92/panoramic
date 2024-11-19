@@ -1,0 +1,23 @@
+descriptor:
+  algo: "sift"
+  max_num_keypoints: 256
+  nfeatures: 1000
+  device: "cpu"
+  dist_value: 0.6
+  trees: 5
+  k: 2
+  checks: 50
+  good_matches_quantity: 200
+  min_match_count: 5
+
+
+image:
+  size_edje: 30000
+  resize_coef: 0.6
+
+mode:
+  type: "fast_mapping"
+  step: 30
+  chunk_size: 5
+  overlap_size: 2
+  chunk_ortho_side_size: 30000
