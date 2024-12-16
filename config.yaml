@@ -1,0 +1,29 @@
+descriptor:
+  algo: "sift"
+  max_num_keypoints: 256
+  nfeatures: 2000
+  device: "cpu"
+  dist_value: 0.6
+  trees: 5
+  k: 2
+  checks: 50
+  good_matches_quantity: 30
+  min_match_count: 5
+  iter_value: 7.0
+
+
+image:
+  size_edje: 30000
+  resize_coef: 0.7
+
+mode:
+  ortho_type: "way"
+  type: "fast_mapping"
+  step: 30
+  chunk_size: 3
+  overlap_size: 3
+  chunk_ortho_side_size: 30000
+  start: 0
+  last: 750
+  part_or_full: True
+  reverse: False
